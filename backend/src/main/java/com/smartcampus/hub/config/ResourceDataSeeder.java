@@ -1,3 +1,5 @@
+
+
 package com.smartcampus.hub.config;
 
 import com.smartcampus.hub.entity.catalogue.Resource;
@@ -162,3 +164,4 @@ public class ResourceDataSeeder implements CommandLineRunner {
                 .build();
     }
 }
+
