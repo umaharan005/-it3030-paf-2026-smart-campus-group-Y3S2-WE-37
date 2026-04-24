@@ -15,3 +15,4 @@ const LandingLayout = ({ children }) => {
 };
 
 export default LandingLayout;
+
