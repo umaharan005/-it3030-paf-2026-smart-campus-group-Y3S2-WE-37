@@ -45,3 +45,4 @@ public class Booking {
     @LastModifiedDate
     private LocalDateTime updatedAt;
 }
+
