@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --font-display: "Trebuchet MS", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI", "Trebuchet MS", sans-serif;
+  --surface-cream: #f5f0e8;
+  --surface-ink: #122033;
+  --surface-sand: #e6d6c2;
+  --surface-gold: #b78038;
+  --surface-coral: #c95d3a;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at top left, rgba(183, 128, 56, 0.14), transparent 26%),
+    linear-gradient(180deg, #f8f4ee 0%, #fffdf9 35%, #f7fbff 100%);
+  color: #142033;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: rgba(183, 128, 56, 0.22);
+  color: #142033;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 25px 60px rgba(18, 32, 51, 0.08);
+}
+
+.admin-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.form-field-light {
+  color: #0f172a;
+  caret-color: #0f172a;
+}
+
+.form-field-light::placeholder {
+  color: #94a3b8;
+}
+
+.form-field-light option {
+  color: #0f172a;
+  background: #ffffff;
+}
+
+.form-field-light:-webkit-autofill,
+.form-field-light:-webkit-autofill:hover,
+.form-field-light:-webkit-autofill:focus {
+  -webkit-text-fill-color: #0f172a;
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.form-field-dark {
+  color: #f8fafc;
+  caret-color: #f8fafc;
+  color-scheme: dark;
+}
+
+.form-field-dark::placeholder {
+  color: #64748b;
+}
+
+.form-field-dark option {
+  color: #f8fafc;
+  background: #1e293b;
+}
