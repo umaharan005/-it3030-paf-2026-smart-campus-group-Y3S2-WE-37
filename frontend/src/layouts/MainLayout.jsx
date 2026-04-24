@@ -1,5 +1,7 @@
 
 
+
+
 import React from 'react';
 import { Search, Sparkles } from 'lucide-react';
 import Navbar from '../components/Navbar';
@@ -56,4 +58,5 @@ const MainLayout = ({ children }) => {
 };
 
 export default MainLayout;
+
 
