@@ -1,3 +1,5 @@
+
+
 package com.smartcampus.hub.controller.catalogue;
 
 import com.smartcampus.hub.entity.catalogue.Resource;
@@ -65,3 +67,4 @@ public class ResourceController {
         return ResponseEntity.noContent().build();
     }
 }
+
