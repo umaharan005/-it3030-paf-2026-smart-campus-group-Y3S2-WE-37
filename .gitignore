@@ -1,0 +1,10 @@
+.metadata/
+
+# Ignore all Maven/Gradle target build directories anywhere in the repo
+**/target/
+backend/apache-maven-*/
+backend/*.zip
+backend/*.log
+backend/*.pid
+frontend/*.log
+frontend/*.pid
