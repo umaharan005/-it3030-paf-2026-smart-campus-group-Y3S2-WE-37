@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect } from 'react';
 import { getMyBookings, cancelBooking } from '../../services/bookingApi';
 import { getResources } from '../../services/catalogueApi';
@@ -257,3 +259,4 @@ const UserBookings = () => {
 };
 
 export default UserBookings;
+
