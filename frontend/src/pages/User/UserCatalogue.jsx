@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect } from 'react';
 import { getResources, CAMPUS_BUILDINGS, CAMPUS_FLOORS } from '../../services/catalogueApi';
 import ResourceCard from '../../components/Catalogue/ResourceCard';
@@ -194,3 +196,4 @@ const UserCatalogue = () => {
 };
 
 export default UserCatalogue;
+
