@@ -1,3 +1,5 @@
+
+
 package com.smartcampus.hub.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -28,3 +30,4 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 .withSockJS();
     }
 }
+
