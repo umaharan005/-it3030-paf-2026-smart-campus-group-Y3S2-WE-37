@@ -67,3 +67,4 @@ export const getBookingSlots = async (resourceId, date) => {
     });
     return response.data;
 };
+
