@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Mail, MapPin, Phone } from 'lucide-react';
@@ -72,3 +74,4 @@ const LandingFooter = () => {
 };
 
 export default LandingFooter;
+
