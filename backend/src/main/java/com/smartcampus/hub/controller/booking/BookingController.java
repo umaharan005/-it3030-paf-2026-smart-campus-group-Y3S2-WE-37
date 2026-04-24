@@ -2,6 +2,8 @@
 
 
 
+
+
 package com.smartcampus.hub.controller.booking;
 
 import com.smartcampus.hub.entity.booking.Booking;
@@ -92,5 +94,6 @@ public class BookingController {
         return ResponseEntity.ok(bookingService.getBookedSlots(resourceId, date));
     }
 }
+
 
 
