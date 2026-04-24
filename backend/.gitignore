@@ -1,0 +1,8 @@
+# Ignore workspace metadata
+.metadata/
+
+# Ignore build/bin outputs
+bin/
+
+# Optional: ignore Maven target directory
+target/
