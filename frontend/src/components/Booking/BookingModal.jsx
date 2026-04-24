@@ -1,3 +1,5 @@
+
+
 import React, { useState, useEffect, useCallback } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import timeGridPlugin from '@fullcalendar/timegrid';
@@ -355,3 +357,4 @@ const BookingModal = ({ resource, onClose, onSuccess, existingBooking }) => {
 };
 
 export default BookingModal;
+
